@@ -4,8 +4,14 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context="com.example.taj.tap.MainActivity"
     android:orientation="vertical"
-    tools:context="com.example.taj.tap.MainActivity">
+    android:baselineAligned="false">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
 
                 <TextView
@@ -20,5 +26,5 @@
 
 
             </LinearLayout>
-
+    </LinearLayout>
 
